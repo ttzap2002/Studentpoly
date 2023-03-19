@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Players>
+    <Player>
+      <Coordinates>8</Coordinates>
+      <Wallet>380</Wallet>
+      <IsActive>true</IsActive>
+      <TurnsToStayInPrison>0</TurnsToStayInPrison>
+      <ExitPrisonCards>0</ExitPrisonCards>
+      <Name>Slon</Name>
+      <PlayerId>Elephant</PlayerId>
+    </Player>
+    <Player>
+      <Coordinates>14</Coordinates>
+      <Wallet>2235</Wallet>
+      <IsActive>true</IsActive>
+      <TurnsToStayInPrison>0</TurnsToStayInPrison>
+      <ExitPrisonCards>0</ExitPrisonCards>
+      <Name>Kot</Name>
+      <PlayerId>Cat</PlayerId>
+    </Player>
+    <Player>
+      <Coordinates>0</Coordinates>
+      <Wallet>0</Wallet>
+      <IsActive>false</IsActive>
+      <TurnsToStayInPrison>0</TurnsToStayInPrison>
+      <ExitPrisonCards>0</ExitPrisonCards>
+      <Name>Auto</Name>
+      <PlayerId>Car</PlayerId>
+    </Player>
+    <Player>
+      <Coordinates>0</Coordinates>
+      <Wallet>0</Wallet>
+      <IsActive>false</IsActive>
+      <TurnsToStayInPrison>0</TurnsToStayInPrison>
+      <ExitPrisonCards>0</ExitPrisonCards>
+      <Name>Armata</Name>
+      <PlayerId>Canoon</PlayerId>
+    </Player>
+  </Players>
+  <BoardFields>
+    <Field>
+      <Fieldname>Start</Fieldname>
+      <Coordinates>0</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>IiE</Fieldname>
+      <Coordinates>1</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>60</Price>
+      <NoOfHouse>5</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Kasa Społeczna</Fieldname>
+      <Coordinates>2</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Zarządzenie</Fieldname>
+      <Coordinates>3</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>60</Price>
+      <NoOfHouse>5</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Podatek</Fieldname>
+      <Coordinates>4</Coordinates>
+    </Field>
+    <Field xsi:type="RailwayField">
+      <Fieldname>Akademik Babilon</Fieldname>
+      <Coordinates>5</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>200</Price>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>cyberbezpieczeństwo</Fieldname>
+      <Coordinates>6</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>100</Price>
+      <NoOfHouse>5</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Szansa</Fieldname>
+      <Coordinates>7</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Teleinformatyka</Fieldname>
+      <Coordinates>8</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>100</Price>
+      <NoOfHouse>5</NoOfHouse>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Elektronika</Fieldname>
+      <Coordinates>9</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>120</Price>
+      <NoOfHouse>5</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Kac</Fieldname>
+      <Coordinates>10</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Inżynieria Akustyczna</Fieldname>
+      <Coordinates>11</Coordinates>
+      <Owner>Elephant</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>140</Price>
+      <NoOfHouse>3</NoOfHouse>
+    </Field>
+    <Field xsi:type="UtilityField">
+      <Fieldname>Browar Górniczo Hutniczy</Fieldname>
+      <Coordinates>12</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>140</Price>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>AutomatykaPrzemyslowa i Robotyka</Fieldname>
+      <Coordinates>13</Coordinates>
+      <Owner>Elephant</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>140</Price>
+      <NoOfHouse>3</NoOfHouse>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Mechanika i BudowaMaszyn</Fieldname>
+      <Coordinates>14</Coordinates>
+      <Owner>Elephant</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>150</Price>
+      <NoOfHouse>2</NoOfHouse>
+    </Field>
+    <Field xsi:type="RailwayField">
+      <Fieldname>Akademik Kapitol</Fieldname>
+      <Coordinates>15</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>200</Price>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Fizyka Medyczna</Fieldname>
+      <Coordinates>16</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>true</IsMortgage>
+      <Price>180</Price>
+      <NoOfHouse>0</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Szansa</Fieldname>
+      <Coordinates>17</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Fizyka Techniczna</Fieldname>
+      <Coordinates>18</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>true</IsMortgage>
+      <Price>180</Price>
+      <NoOfHouse>0</NoOfHouse>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Informatyka Stosowana</Fieldname>
+      <Coordinates>19</Coordinates>
+      <Owner>Elephant</Owner>
+      <IsMortgage>true</IsMortgage>
+      <Price>200</Price>
+      <NoOfHouse>0</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Parking</Fieldname>
+      <Coordinates>20</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Geodezja i Kartografia</Fieldname>
+      <Coordinates>21</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>true</IsMortgage>
+      <Price>220</Price>
+      <NoOfHouse>0</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Szansa</Fieldname>
+      <Coordinates>22</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Geoinformacja</Fieldname>
+      <Coordinates>23</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>true</IsMortgage>
+      <Price>220</Price>
+      <NoOfHouse>0</NoOfHouse>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Inżynieria i Monitoring Środowiska</Fieldname>
+      <Coordinates>24</Coordinates>
+      <Owner>Elephant</Owner>
+      <IsMortgage>true</IsMortgage>
+      <Price>240</Price>
+      <NoOfHouse>0</NoOfHouse>
+    </Field>
+    <Field xsi:type="RailwayField">
+      <Fieldname>Akademik Akropol</Fieldname>
+      <Coordinates>25</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>200</Price>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>EdukacjaTechniczno Informatyczna</Fieldname>
+      <Coordinates>26</Coordinates>
+      <Owner>Elephant</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>260</Price>
+      <NoOfHouse>5</NoOfHouse>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Inżynieria Obliczeniowa</Fieldname>
+      <Coordinates>27</Coordinates>
+      <Owner>Elephant</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>260</Price>
+      <NoOfHouse>5</NoOfHouse>
+    </Field>
+    <Field xsi:type="UtilityField">
+      <Fieldname>Klub Studio</Fieldname>
+      <Coordinates>28</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>150</Price>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Inżynieria Ciepła</Fieldname>
+      <Coordinates>29</Coordinates>
+      <Owner>Elephant</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>280</Price>
+      <NoOfHouse>5</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Idź Na Kaca</Fieldname>
+      <Coordinates>30</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Informatyka Społeczna</Fieldname>
+      <Coordinates>31</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>true</IsMortgage>
+      <Price>300</Price>
+      <NoOfHouse>0</NoOfHouse>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Kulturoznawstwo</Fieldname>
+      <Coordinates>32</Coordinates>
+      <Owner>Elephant</Owner>
+      <IsMortgage>true</IsMortgage>
+      <Price>300</Price>
+      <NoOfHouse>0</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Kasa Społeczna</Fieldname>
+      <Coordinates>33</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Socjologia</Fieldname>
+      <Coordinates>34</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>true</IsMortgage>
+      <Price>320</Price>
+      <NoOfHouse>0</NoOfHouse>
+    </Field>
+    <Field xsi:type="RailwayField">
+      <Fieldname>Akademik Olimp</Fieldname>
+      <Coordinates>35</Coordinates>
+      <Owner>Cat</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>200</Price>
+    </Field>
+    <Field>
+      <Fieldname>Szansa</Fieldname>
+      <Coordinates>36</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>InżynieriaNaftowa i Klasowa</Fieldname>
+      <Coordinates>37</Coordinates>
+      <Owner>Elephant</Owner>
+      <IsMortgage>true</IsMortgage>
+      <Price>350</Price>
+      <NoOfHouse>0</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Podatek</Fieldname>
+      <Coordinates>38</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Geoinżynieria i GórnictwoOtworowe</Fieldname>
+      <Coordinates>39</Coordinates>
+      <Owner>Elephant</Owner>
+      <IsMortgage>true</IsMortgage>
+      <Price>400</Price>
+      <NoOfHouse>0</NoOfHouse>
+    </Field>
+  </BoardFields>
+  <Whoplay>Elephant</Whoplay>
+  <ChanceList>
+    <int>11</int>
+    <int>10</int>
+    <int>14</int>
+    <int>6</int>
+    <int>9</int>
+    <int>13</int>
+    <int>5</int>
+    <int>8</int>
+    <int>1</int>
+    <int>2</int>
+    <int>0</int>
+    <int>4</int>
+    <int>12</int>
+    <int>7</int>
+    <int>3</int>
+  </ChanceList>
+  <SocietyTreasure>
+    <int>19</int>
+    <int>16</int>
+    <int>17</int>
+    <int>21</int>
+    <int>22</int>
+    <int>27</int>
+    <int>29</int>
+    <int>20</int>
+    <int>25</int>
+    <int>28</int>
+    <int>23</int>
+    <int>18</int>
+    <int>26</int>
+    <int>15</int>
+    <int>24</int>
+  </SocietyTreasure>
+  <History>
+    <Records>
+      <DiceThrowRecord>
+        <FirstThrow>4</FirstThrow>
+        <SecondThrow>3</SecondThrow>
+      </DiceThrowRecord>
+    </Records>
+    <MandatoryAction>
+      <PayTo>Cat</PayTo>
+      <Amount>550</Amount>
+    </MandatoryAction>
+    <HousesBought>0</HousesBought>
+  </History>
+</GameStatus>

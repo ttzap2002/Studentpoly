@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Players>
+    <Player>
+      <Coordinates>13</Coordinates>
+      <Wallet>1500</Wallet>
+      <PrisonExitCard>0</PrisonExitCard>
+      <IsActive>true</IsActive>
+      <IsPrisoner>false</IsPrisoner>
+      <Name>kot</Name>
+      <PlayerId>Cat</PlayerId>
+      <Whichturn>0</Whichturn>
+    </Player>
+    <Player>
+      <Coordinates>0</Coordinates>
+      <Wallet>1500</Wallet>
+      <PrisonExitCard>0</PrisonExitCard>
+      <IsActive>true</IsActive>
+      <IsPrisoner>false</IsPrisoner>
+      <Name>pies</Name>
+      <PlayerId>Dog</PlayerId>
+      <Whichturn>1</Whichturn>
+    </Player>
+    <Player>
+      <Coordinates>0</Coordinates>
+      <Wallet>1500</Wallet>
+      <PrisonExitCard>0</PrisonExitCard>
+      <IsActive>true</IsActive>
+      <IsPrisoner>false</IsPrisoner>
+      <Name>słoń</Name>
+      <PlayerId>Elephant</PlayerId>
+      <Whichturn>2</Whichturn>
+    </Player>
+    <Player>
+      <Coordinates>0</Coordinates>
+      <Wallet>1500</Wallet>
+      <PrisonExitCard>0</PrisonExitCard>
+      <IsActive>true</IsActive>
+      <IsPrisoner>false</IsPrisoner>
+      <Name>żelazko</Name>
+      <PlayerId>Iron</PlayerId>
+      <Whichturn>3</Whichturn>
+    </Player>
+  </Players>
+  <BoardFields>
+    <Field>
+      <Fieldname>Start</Fieldname>
+      <Coordinates>0</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Ulica_Konopacka</Fieldname>
+      <Coordinates>1</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>60</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>KasaSpołeczna</Fieldname>
+      <Coordinates>2</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>Ulica_Stalowa</Fieldname>
+      <Coordinates>3</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>60</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Podatek</Fieldname>
+      <Coordinates>4</Coordinates>
+    </Field>
+    <Field xsi:type="PropertyField">
+      <Fieldname>DworzecZachodni</Fieldname>
+      <Coordinates>5</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>0</Price>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaRadzymińska</Fieldname>
+      <Coordinates>6</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>100</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Szans</Fieldname>
+      <Coordinates>7</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaJagiellońska</Fieldname>
+      <Coordinates>8</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>100</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaTargowa</Fieldname>
+      <Coordinates>9</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>120</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Wiezienie</Fieldname>
+      <Coordinates>10</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaPłowiecka</Fieldname>
+      <Coordinates>11</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>140</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field xsi:type="PropertyField">
+      <Fieldname>Elektrownia</Fieldname>
+      <Coordinates>12</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>0</Price>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaMarsa</Fieldname>
+      <Coordinates>13</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>140</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaGrochowska</Fieldname>
+      <Coordinates>14</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>160</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field xsi:type="PropertyField">
+      <Fieldname>DworzecGdański</Fieldname>
+      <Coordinates>15</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>0</Price>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaObozowa</Fieldname>
+      <Coordinates>16</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>180</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Szansa</Fieldname>
+      <Coordinates>17</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaGórczewska</Fieldname>
+      <Coordinates>18</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>180</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaWolska</Fieldname>
+      <Coordinates>19</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>200</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>BezpłatnyParking</Fieldname>
+      <Coordinates>20</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaMickiewicza</Fieldname>
+      <Coordinates>21</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>220</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Szansa</Fieldname>
+      <Coordinates>22</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaSłowackiego</Fieldname>
+      <Coordinates>23</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>220</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>PlacWilsona</Fieldname>
+      <Coordinates>24</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>240</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field xsi:type="PropertyField">
+      <Fieldname>DworzecWschodni</Fieldname>
+      <Coordinates>25</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>0</Price>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaŚwiętokrzyska</Fieldname>
+      <Coordinates>26</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>260</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>KrakowskiePrzedmieście</Fieldname>
+      <Coordinates>27</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>260</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Wodociągi</Fieldname>
+      <Coordinates>28</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>NowyŚwiat</Fieldname>
+      <Coordinates>29</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>280</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>Idźdowięzienia</Fieldname>
+      <Coordinates>30</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>PlacTrzechKrzyży</Fieldname>
+      <Coordinates>31</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>300</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaMarszałkowska</Fieldname>
+      <Coordinates>32</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>300</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>KasaSpołeczna</Fieldname>
+      <Coordinates>33</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>AlejeJerozolimskie</Fieldname>
+      <Coordinates>34</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>320</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field xsi:type="PropertyField">
+      <Fieldname>DworzecCentralny</Fieldname>
+      <Coordinates>35</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>0</Price>
+    </Field>
+    <Field>
+      <Fieldname>Szansa</Fieldname>
+      <Coordinates>36</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>UlicaBelwederska</Fieldname>
+      <Coordinates>37</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>350</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+    <Field>
+      <Fieldname>PodatekDochodowy</Fieldname>
+      <Coordinates>38</Coordinates>
+    </Field>
+    <Field xsi:type="StreetField">
+      <Fieldname>AlejeUrajzdowskie</Fieldname>
+      <Coordinates>39</Coordinates>
+      <Owner>Bank</Owner>
+      <IsMortgage>false</IsMortgage>
+      <Price>400</Price>
+      <NoOfHouse>4</NoOfHouse>
+    </Field>
+  </BoardFields>
+  <Whoplay>0</Whoplay>
+</GameStatus>
